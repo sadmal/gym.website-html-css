@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      color: white;
+      width: 100%;
+      background-image: url(gym.22.jpg);
+      background-size: cover;
+     }
+    .left{
+      display: inline-block;
+      position: absolute;
+      left: 34px;
+      top:20px;
+      text-align: center;
+      font-size: 12px;
+      }
+    .left img{
+      width: 65px;
+    }
+
+    .btn{
+      cursor: pointer;
+      border-radius: 40px;
+      padding: 5px 10px;
+    }
+    .login-page{
+      margin: 180px 0 0 50px;
+    }
+     #footer{
+    font-size: 12px;
+    margin-top: 50vh
+   ;
+    }
+  
+   
+  </style>
+  
+</head>
+<body>
+   <header>
+    <div class="left">
+      <img src="gym.icon.jpg" alt="gym-logo">
+      <div>Sahil Fitness</div>
+    </div>
+
+  </header>
+  
+  <form id="login" class="login-page"
+    action="/Homepage.html">
+    <label>Email:</label>
+    <div><input id="email" type="text" name="email" placeholder="Enter your email"
+           required>
+      <br>
+      <br>
+      <label>Password:</label>
+      <br>
+    <input id="password" type="password"
+      name="password" placeholder="Enter your password" required>
+      <br>
+      <br>
+    <button class="loginbtn" onclick="">Login</button>
+    </div>
+  </form>
+<div class="f.div">
+    <footer id="footer">&copy; Copyright 2022 HTML.am</footer>
+</div>
+  
+
+</body>
+</html>
